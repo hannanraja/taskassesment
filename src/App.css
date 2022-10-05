@@ -1,7 +1,53 @@
+body{
+  background-color: #F7F7F7;
+}
 .App {
   text-align: center;
+  background-color: #F7F7F7;
 }
+.main2{
+padding: 10px;
+  margin-bottom: 20px;
+  display: block;
+  min-height: 20vh;
+  display:flex;
+}
+.halfwidth{
+  display:block;
+  width:48%;
+  margin-bottom: 20px;
+}
+.leftbutton
+{
+  float: left;
+  padding: 20px;
 
+}
+.leftbutton button{
+  outline:none;
+  border: none;
+  color:#444444;
+  box-shadow: 1px 1px 5px 1px #8A8A8A;
+}
+.rightbutton{
+  position: absolute;
+  right: 10vw;
+  top:10vh;
+}
+.main1{
+  padding: 10px;
+  margin-bottom: 20px;
+  display: block;
+  min-height: 10vh;
+}
+.rightbutton button{
+  color:white;
+  background-color: green;
+  border-radius: 20px;
+  outline:none;
+  border:none;
+  padding: 10px 40px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,7 +58,21 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.fullwdth{
+width: 100%;
+display: flex;
+}
+.sidebar{
+  height: 100vh;
+  width: 5%;
+  padding: 6px 15px;
+  background-color: #212529;
+  color: white;
+  margin-top:2px;
+}
+sidebar2{
+  width: 94%;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

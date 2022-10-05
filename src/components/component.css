@@ -1,0 +1,64 @@
+.boxdatamain{
+    padding: 20px;
+    margin-left: 20px;
+    display:flexbox;
+    text-align:center;
+    width:100%;
+}
+
+.boxdatamain .box{
+    float:left;
+    width: 22%;
+    background-color: white;
+    margin: 06px;
+    padding: 50px 30px;
+    text-align: center;
+    box-shadow: 1px 1px 08px 1px #4849493b
+}
+.ppmain{
+    background-color:white;
+    box-shadow: 1px 1px 10px 2px #4849493b;
+    width: 30%;
+    margin: 20px;
+}
+.personmain{
+    display:flex;
+}
+.mainpp{
+    display:flex;
+    width: 100%;
+}
+
+.widthhalf{
+    width:50%;
+
+}
+.ppmain button{
+    position :relative;
+    left: -11.54vw;
+    background-image: linear-gradient(#FFDA75,#FF9B09);
+    border:none;
+    outline: none;
+    color:white;
+    font-weight:400;
+}
+table caption {
+    padding: .5em 0;
+  }
+  
+  table.dataTable th{
+    white-space: nowrap;
+    box-shadow: 2px 0px 10px 3px black !important;
+  }
+
+table{
+   background-color: white;
+}
+.type{
+    background-color: red !important;
+    color:white;
+    border-radius: 20px;
+    margin: 2px;
+    display:inline-block;
+    padding: 2px 10px;
+}
